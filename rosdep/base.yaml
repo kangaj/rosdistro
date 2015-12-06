@@ -303,6 +303,7 @@ boost:
   macports: [boost]
   opensuse: [boost-devel]
   rhel: [boost-devel]
+  centos: [boost-devel]
   ubuntu:
     lucid:
       apt:
@@ -393,6 +394,7 @@ bzip2:
   macports: [bzip2]
   opensuse: [libbz2-devel]
   rhel: [bzip2-devel]
+  centos: [bzip2-devel]
   ubuntu: [libbz2-dev]
 ca-certificates:
   debian: [ca-certificates]
@@ -486,6 +488,7 @@ cppunit:
   macports: [cppunit]
   opensuse: [libcppunit-devel]
   rhel: [cppunit-devel]
+  centos: [cppunit-devel]
   ubuntu: [libcppunit-dev]
 crypto++:
   fedora: [cryptopp-devel]
@@ -503,6 +506,7 @@ curl:
   opensuse: [libcurl-devel]
   rhel: [libcurl-devel]
   ubuntu: [libcurl4-openssl-dev]
+  centos: [libcurl-devel]
 cvs:
   arch: [cvs]
   fedora: [cvs]
@@ -538,6 +542,7 @@ doxygen:
   gentoo: [app-doc/doxygen]
   macports: [doxygen]
   rhel: [doxygen]
+  centos: [doxygen]
   ubuntu: [doxygen]
 dpkg:
   arch: [dpkg]
@@ -578,6 +583,7 @@ eigen:
   macports: [eigen3]
   opensuse: [libeigen3-devel]
   rhel: [eigen3-devel]
+  centos: [eigen3-devel]
   ubuntu:
     apt:
       packages: [libeigen3-dev]
@@ -704,6 +710,7 @@ freeimage:
   gentoo: [media-libs/freeimage]
   macports: [freeimage]
   rhel: [freeimage-devel]
+  centos: [freeimage-devel]
   ubuntu: [libfreeimage-dev]
 freetype:
   fedora: [freetype]
@@ -820,6 +827,7 @@ glut:
   gentoo: [media-libs/freeglut]
   macports: [freeglut]
   rhel: [freeglut-devel]
+  centos: [freeglut-devel]
   ubuntu: [freeglut3-dev]
 gnuplot:
   arch: [gnuplot]
@@ -836,6 +844,7 @@ google-mock:
   gentoo: [dev-cpp/gmock]
   opensuse: [gmock-devel]
   rhel: [gmock-devel]
+  centos: [gmock-devel]]
   ubuntu: [google-mock]
 gperftools:
   fedora: [gperftools, gperftools-devel]
@@ -861,6 +870,7 @@ graphviz:
   macports: [graphviz]
   opensuse: [graphviz]
   rhel: [graphviz]
+  centos: [graphviz]
   ubuntu: [graphviz]
 gringo:
   fedora: [gringo]
@@ -914,6 +924,7 @@ gtest:
   macports: [ros-gtest]
   opensuse: [googletest-devel]
   rhel: [gtest-devel]
+  centos: [gtest-devel]
   ubuntu: [libgtest-dev]
 gtk-doc-tools:
   arch: [gtk-doc]
@@ -932,6 +943,7 @@ gtk2:
   macports: [gtk2]
   opensuse: [gtk2-devel]
   rhel: [gtk2-devel]
+  centos: [gtk2-devel]
   ubuntu: [libgtk2.0-dev]
 gv:
   arch: [gv]
@@ -1046,6 +1058,7 @@ joystick:
   gentoo: [games-util/joystick]
   opensuse: [input-utils]
   rhel: [joystick]
+  centos: [linuxconsoletools]
   ubuntu: [joystick]
 jython:
   arch: [jython]
@@ -1991,6 +2004,7 @@ libqt4:
   macports: [qt4-mac]
   opensuse: [libqt4]
   rhel: [qt]
+  centos: [qt]
   ubuntu: [libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4]
 libqt4-dev:
   arch: [qt4]
@@ -2003,6 +2017,7 @@ libqt4-dev:
   macports: [qt4-mac]
   opensuse: [libqt4-devel]
   rhel: [qt-devel]
+  centos: [qt-devel]
   ubuntu: [libqt4-dev]
 libqt4-opengl:
   arch: [qt4]
@@ -2012,6 +2027,7 @@ libqt4-opengl:
     portage:
       packages: [dev-qt/qtopengl]
   rhel: [qt]
+  centos: [qt]
   ubuntu: [libqt4-opengl]
 libqt4-opengl-dev:
   arch: [qt4]
@@ -2023,6 +2039,7 @@ libqt4-opengl-dev:
   macports: [qt4-mac]
   opensuse: [libqt4-devel]
   rhel: [qt-devel]
+  centos: [qt-devel]
   ubuntu: [libqt4-opengl-dev]
 libqt4-sql-psql:
   arch: [qt4]
@@ -2264,6 +2281,7 @@ libtool:
   macports: [libtool]
   opensuse: [libtool, libltdl3]
   rhel: [libtool, libtool-ltdl-devel]
+  centos: [libtool, libtool-ltdl-devel]
   ubuntu:
     lucid: [libtool, libltdl-dev]
     maverick: [libtool, libltdl-dev]
@@ -2293,6 +2311,7 @@ libunittest++:
   fedora: [unittest]
   macports: [unittest-cpp]
   rhel: [unittest]
+  centos: [unittest]
   ubuntu:
     apt:
       packages: [libunittest++-dev]
@@ -2332,6 +2351,7 @@ liburdfdom-headers-dev:
     trusty: [liburdfdom-headers-dev]
     utopic: [liburdfdom-headers-dev]
     vivid: [liburdfdom-headers-dev]
+  centos: [urdfdom-headers]
 liburdfdom-tools:
   debian: [liburdfdom-tools]
   fedora: [urdfdom]
@@ -2462,6 +2482,7 @@ libxaw:
   macports: [xorg-libXaw]
   opensuse: [xorg-x11-devel]
   rhel: [libXaw-devel]
+  centos: [libXaw-devel]
   ubuntu: [libxaw7-dev]
 libxenomai-dev:
   debian: [libxenomai-dev]
@@ -2475,6 +2496,7 @@ libxext:
   macports: [xorg-libXext]
   opensuse: [xorg-x11-libXext-devel]
   rhel: [libXext-devel]
+  centos: [libXext-devel]
   ubuntu: [libxext-dev]
 libxi-dev:
   arch: [libxi]
@@ -2499,6 +2521,7 @@ libxml2:
   macports: [libxml2]
   opensuse: [libxml2-devel]
   rhel: [libxml2-devel]
+  centos: [libxml2-devel]
   ubuntu: [libxml2-dev]
 libxmu-dev:
   arch: [libxmu]
@@ -2512,6 +2535,7 @@ libxrandr:
   gentoo: [x11-libs/libXrandr]
   macports: [xorg-libXrandr]
   rhel: [libXrandr-devel]
+  centos: [libXrandr-devel]
   ubuntu: [libxrandr-dev]
 libxslt:
   arch: [libxslt]
@@ -2538,6 +2562,7 @@ libxxf86vm:
   macports: [xorg-libXxf86vm]
   opensuse: [xorg-x11-devel]
   rhel: [libXxf86vm-devel]
+  centos: [libXxf86vm-devel]
   ubuntu: [libxxf86vm-dev]
 libzmq3-dev:
   ubuntu: [libzmq3-dev]
@@ -2562,6 +2587,7 @@ log4cxx:
   macports: [ros-log4cxx]
   opensuse: [liblog4cxx-devel]
   rhel: [log4cxx-devel]
+  centos: [log4cxx-devel]
   ubuntu: [liblog4cxx10-dev]
 lua-dev:
   arch: [lua]
@@ -2791,6 +2817,7 @@ opengl:
   macports: [mesa]
   opensuse: [Mesa-devel]
   rhel: [mesa-libGL-devel, mesa-libGLU-devel]
+  centos: [mesa-libGL-devel, mesa-libGLU-devel]
   ubuntu: [libgl1-mesa-dev, libglu1-mesa-dev]
 openjdk-6-jdk:
   arch: [openjdk6]
@@ -2829,6 +2856,7 @@ pcre:
   gentoo: [dev-libs/libpcre]
   macports: [pcre]
   rhel: [pcre-devel]
+  centos: [pcre-devel]
   ubuntu: [libpcre3-dev]
 pcre-dev:
   arch: [pcre]
@@ -2836,6 +2864,7 @@ pcre-dev:
   fedora: [pcre-devel]
   gentoo: [dev-libs/pcre++]
   rhel: [pcre-devel]
+  centos: [pcre-devel]
   ubuntu: [libpcre++-dev]
 phantomjs:
   ubuntu: [phantomjs]
@@ -2849,6 +2878,7 @@ pkg-config:
   macports: [pkgconfig]
   opensuse: [pkg-config]
   rhel: [pkgconfig]
+  centos: [pkgconfig]
   ubuntu: [pkg-config]
 portaudio:
   arch: [portaudio]
@@ -2922,6 +2952,7 @@ python-nose:
   gentoo:
     portage:
       packages: [dev-python/nose]
+  centos: [python-nose]
 python-opencv:
   fedora: [opencv-python]
   gentoo: [media-libs/opencv]
@@ -2961,6 +2992,7 @@ qt4-qmake:
   macports: [qt4-mac]
   opensuse: [libqt4-devel]
   rhel: [qt-devel]
+  centos: [qt-devel]
   ubuntu: [qt4-qmake]
 qt5-qmake:
   fedora: [qt5-qtbase-devel]
@@ -3265,6 +3297,7 @@ tar:
   macports: [libtar]
   opensuse: [libtar-devel]
   rhel: [libtar-devel]
+  centos: [libtar-devel]
   ubuntu: [libtar-dev]
 tbb:
   arch: [intel-tbb]
@@ -3333,12 +3366,14 @@ tinyxml:
   macports: [tinyxml]
   opensuse: [tinyxml-devel]
   rhel: [tinyxml-devel]
+  centos: [tinyxml-devel]
   ubuntu: [libtinyxml-dev]
 tinyxml2:
   arch: [tinyxml2]
   debian: [libtinyxml2-dev]
   fedora: [tinyxml2-devel]
   ubuntu: [libtinyxml2-dev]
+  centos: [tinyxml2-devel]
 tix:
   arch: [tix]
   debian: [tix]
@@ -3406,6 +3441,7 @@ unzip:
   macports: [unzip]
   opensuse: [unzip]
   rhel: [unzip]
+  centos: [unzip]
   ubuntu: [unzip]
 uuid:
   arch: [util-linux]
@@ -3416,6 +3452,7 @@ uuid:
   macports: [ossp-uuid]
   opensuse: [libuuid-devel]
   rhel: [libuuid-devel]
+  centos: [libuuid-devel]
   ubuntu: [uuid-dev]
 uvcdynctrl:
   fedora: [uvcdynctrl]
@@ -3478,6 +3515,7 @@ wxwidgets:
   macports: [wxWidgets-python]
   opensuse: [wxGTK-devel]
   rhel: [wxGTK-devel]
+  cetnos: [wxGTK-devel]
   ubuntu: [libwxgtk2.8-dev]
 x11proto-dri2-dev:
   arch: [dri2proto]
@@ -3593,6 +3631,7 @@ yaml-cpp:
   macports: [yaml-cpp]
   opensuse: [yaml-cpp-devel]
   rhel: [yaml-cpp-devel]
+  centos: [yaml-cpp-devel]
   ubuntu:
     lucid: [yaml-cpp0.2.6-dev]
     maverick: [yaml-cpp0.2.6-dev]
@@ -3626,6 +3665,7 @@ zlib:
   macports: [zlib]
   opensuse: [zlib-devel]
   rhel: [zlib-devel]
+  centos: [zlib-devel]
   ubuntu: [zlib1g-dev]
 zziplib:
   arch: [zziplib]
@@ -3636,4 +3676,5 @@ zziplib:
   macports: [libzzip]
   opensuse: [zziplib-devel]
   rhel: [zziplib-devel]
+  centos: [zziplib-devel]
   ubuntu: [libzzip-0-13, libzzip-dev]
