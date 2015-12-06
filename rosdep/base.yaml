@@ -844,7 +844,7 @@ google-mock:
   gentoo: [dev-cpp/gmock]
   opensuse: [gmock-devel]
   rhel: [gmock-devel]
-  centos: [gmock-devel]]
+  centos: [gmock-devel]
   ubuntu: [google-mock]
 gperftools:
   fedora: [gperftools, gperftools-devel]
